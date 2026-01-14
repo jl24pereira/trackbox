@@ -1,0 +1,14 @@
+plugins{
+    id 'java'
+}
+
+allprojects{
+    group = 'com.kalapa.trackbox'
+    version = '0.1.0'
+}
+
+subprojects{
+    repositories{
+        mavenCentral()
+    }
+}
