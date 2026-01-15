@@ -1,4 +1,4 @@
-package com.kalapa.trackbox.container_service;
+package com.kalapa.trackbox.containerservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,3 +1,15 @@
+server:
+  port: 8081
 spring:
   application:
     name: container-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/${POSTGRES_DB_NAME:container-db}
+    username: ${POSTGRES_USER:root}
+    password: ${POSTGRES_PASSWORD:root}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop

@@ -1,4 +1,4 @@
-package com.kalapa.trackbox.container_service;
+package com.kalapa.trackbox.containerservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
